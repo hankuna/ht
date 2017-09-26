@@ -1,0 +1,29 @@
+body
+  font-size: .12rem
+
+.aside-wrap
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  transform: translate3d(-200px,0,0)
+
+  .aside-left
+    background-color: red
+    width: 200px
+    position: absolute
+    top: 0
+    left: 0
+    z-index: 999
+
+  .aside-right
+    position: absolute
+    top: 0
+    left: 200px
+    bottom: 0
+    width: 100%
+    background-color: darkgreen
+
+.active
+  transition: all .2s
+  transform: translate3d(0,0,0)
